@@ -1,0 +1,33 @@
+JS Engine consists of two components: 
+1. Call Stack
+2. Heap
+
+1. Call Stack : It is the place where code is being executed
+2. Heap : It is the place for managing the memory 
+
+Compilation : Entire source code is converted to machine code and is 
+sent to portable file, and execution will happen after that
+
+Interpretation: interpreter runs through the source code and executes it line by line
+Interpreted languages are slow
+
+Modern JS Engine uses Compilation & Interpretation, know as Just in Time (JIT)
+In this execution happens directly after Interpretation , no portable file is present
+
+1. First each line is parsed and stored in Abstraction Syntax Tree(AST) in 
+2. Compilation - converts source code to machine code
+3. Execution - Execution happens in call stack
+
+Between 2 & 3, there is Optimization , that happens in special threads that we can't access from code
+
+
+JavaScript Runtime : A container containing all the things required for running JavaScript
+Components present in JavaScript Runtime are:
+1. HEAP ( JS ENGINE)
+2. WEB APIs: Functionalities provided to the engine, accessible on windows object
+3. CALLBACK QUEUE: An eventHandler , which works based on the action
+
+Event Loop takes the CALLBACK QUEUE and puts it into CALL Stack ( JS Engine)
+
+Execution Context:  First only the lines are called, after that the functions are called,
+meaning only top level code is executed. Code always run in Execution Context

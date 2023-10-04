@@ -1,0 +1,17 @@
+1. High Level : Do not have to manage memory management, C requires
+memory allocation from the PC, due to that Python, JavaScript are slow
+
+2. Garbage-Collected : It maintains the memory taken by the JavaScript
+
+3. Interpreted or just-in-time compiled :  Computer processor understands
+0 or 1, In the JavaScript engine, this happens
+
+4. Multi-Paradigm:  An approach over all the elements of the structure of the compiled
+Three popular are: Procedural, Object-oriented, Functional
+Imperative or Declarative
+
+5. Prototype-based object oriented : Everything is an object, array is also an object
+array has methods, which can be used to push, pop , unshift or shift.
+
+6. First-class functions: one function can be called in another
+
