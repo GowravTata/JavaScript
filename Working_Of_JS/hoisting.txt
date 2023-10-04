@@ -1,0 +1,19 @@
+
+
+Variables are lifted to the top of their scope
+
+Before execution , code is scanned for variable declarations, and for each variable,
+a new property is created in the variable environment object.
+
+Function : Function declaration can be used before the code is executed, so it can be called from anywhere
+function declaration is block scoped, only when the strict mode is used, it is not strict in sloppy mode
+
+Var : var variable can't be accessed before it is declared, but no error will come just comes as undefined
+
+let & const: let & const and not hoisted, meaning no initialization is done for let& const
+const variable can't be accessed before it is declaredL. they are block scoped
+
+function expression & arrows : 
+
+Temporal Dead Zone: the code where the variable is tried to access even though it is not present is
+called Temporal Dead Zone.

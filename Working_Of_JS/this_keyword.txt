@@ -1,0 +1,4 @@
+
+
+it takes the value of only the owners
+the value of this keyword is not static
