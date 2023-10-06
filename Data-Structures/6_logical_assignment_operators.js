@@ -33,7 +33,7 @@ rest1.numGuests ??= 30;
 rest2.numGuests ??= 30;
 
 //LOGICAL AND, assign a value to the variable if is is truthy
-rest1.owner &&= 'ANONYMOUS'; 
-rest2.owner &&= 'ANONYMOUS'; 
-console.log(rest1);// name: 'Capri', numGuests: 0}
-console.log(rest2);//  {name: 'La Piazza', owner: 'ANONYMOUS', numGuests: 20}
+rest1.owner &&= 'ANONYMOUS';
+rest2.owner &&= 'ANONYMOUS';
+console.log(rest1); // name: 'Capri', numGuests: 0}
+console.log(rest2); //  {name: 'La Piazza', owner: 'ANONYMOUS', numGuests: 20}
