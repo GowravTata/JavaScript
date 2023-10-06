@@ -23,7 +23,6 @@ console.log(rest2); // {name: 'La Piazza', owner: 'Giovannni Rossi', numGuests: 
 // Logical OR operator, it assigns value to the variable if the variable is currently falsy in the below condition
 // rest1.numGuests ||= 10; // same as rest1.numGuests = rest1.numGuests || 10;
 // rest2.numGuests ||= 10;
-
 /* 
 If the number of guests is 0, in the given object, then 0 is taken as falsy value and it is returned with the truthy value
 That is know as knowledge assignment operator
