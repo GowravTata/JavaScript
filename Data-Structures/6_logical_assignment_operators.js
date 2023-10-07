@@ -36,3 +36,5 @@ rest1.owner &&= 'ANONYMOUS';
 rest2.owner &&= 'ANONYMOUS';
 console.log(rest1); // name: 'Capri', numGuests: 0}
 console.log(rest2); //  {name: 'La Piazza', owner: 'ANONYMOUS', numGuests: 20}
+
+console.log('New Name');
