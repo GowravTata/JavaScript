@@ -128,7 +128,7 @@ const question = new Map([
   [1, 'C'],
   [2, 'Java'],
   [3, 'JavaScript'],
-  ['orrect', 3],
+  ['correct', 3],
   [true, 'Correct 🙂'],
   [false, 'Try again! 😐'],
 ]);
@@ -148,3 +148,13 @@ for (const [key, value] of question) {
 }
 
 const answer = Number(prompt('Your Answer'));
+
+// const answer =2;
+// In this way, a boolean operation can be checked and the same can be access from the MAP
+console.log(question.get(answer === question.get('correct')));
+
+// Converting map to an array
+console.log([...question]);
+console.log(question.entries());
+console.log(...question.keys());
+console.log(...question.values());
