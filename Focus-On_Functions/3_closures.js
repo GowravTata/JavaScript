@@ -14,4 +14,4 @@ runOnce();
 })(); // By adding () to the end of the function it can be used and deleted
 
 // Arrow function in a immediate return manner
-(() => console.log('This will never run again'))();
+(() => console.log('This  will never run again'))();
